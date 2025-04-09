@@ -11,7 +11,7 @@ This is a simple front-end replica of the Facebook login page built with **HTML 
 
 - ## 🔗 Live Demo
 
-[👉 View it here](https://your-username.github.io/repo-name](https://armond-jose.github.io/fb-login-page/)
+[👉 View it here](https://armond-jose.github.io/fb-login-page/)
 
 
 
