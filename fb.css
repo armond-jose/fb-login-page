@@ -1,0 +1,238 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 461px;
+}
+body{
+    margin:0;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    zoom:0.25;
+}
+.logo{
+    width: 50%;
+    padding-top: 162px;
+    float: left;
+}
+.login{
+    width:50%;
+    float:left;
+    padding-top: 100px;
+}
+.logo-text{
+    color: #fff;
+    font-size: 185px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 238px;
+    padding-left: 283px;
+}
+.login-label{
+    color: #fff;
+    font-size: 70px;
+}
+.login-controls{
+    margin-left: 700px;
+    border-spacing: 91px 0px;
+}
+.forgotten{
+    color: #fff;
+    text-decoration: none;
+    font-size: 51px; 
+}
+.sub-btn{
+    background: #4267b2;
+    color: #fff;
+    height: 93px;
+    width: 164px;
+    border: color #29487d;
+    font-size: 40px;
+}
+.login-btn{
+    width: 687px;
+    height: 95px;
+    font-size: 45px;
+}
+.sub-btn:hover{
+    background:rgb(115, 210, 241);
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 105px;
+    padding-top: 101px;
+
+}
+.right-section{
+    width:40%;
+    float:left;
+}
+.main-body{
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height:2800px;
+}
+.image{
+    width: 1893px;
+    margin-left: 284px;
+    height: 953px;
+}
+.para{
+    font-weight: bold;
+    font-size: 67px;
+    margin-left: 367px;
+}
+.create{
+    padding-left: 470px;
+    font-size: 158px;
+    margin-bottom: -40px;
+}
+.para2{
+    padding-left: 477px;
+    font-size: 80px;
+}
+.signup-controls{
+    margin-left: 482px;
+}
+.signup-btn1{
+    height: 140px;
+    width: 940px;
+    border-radius: 26px;
+    font-size: 45px;
+}
+.signup-btn2{
+    margin-left: -959px;
+    height: 140px;
+    width: 940px;
+    font-size: 45px;
+    border-radius: 26px;
+}
+.mob-pas{
+    margin-top: 60px;
+    height: 131px;
+    width: 1954px;
+    border-radius: 26px;
+    font-size: 45px;
+}
+.signup-btn1::placeholder{
+    font-size: 65px;
+    padding-left: 30px;;
+    position: relative;
+    top:12%;
+}
+.signup-btn2::placeholder{
+    font-size: 65px;
+    padding-left: 30px;;
+    position: relative;
+    top:12%;
+}.mob-pas::placeholder{
+    font-size: 65px;
+    padding-left: 30px;;
+    position: relative;
+    top:12%;
+}
+h2{
+    color: grey;
+    padding-left: 492px;
+    margin-top: 74px;
+    font-size: 63px;
+    font-weight: bold;
+}
+.drop{
+    width: 295px;
+    height: 150px;
+    font-size: 85px;
+    margin-left: 495px;
+    float: left;
+    border-radius: 20px;
+}
+.month{
+    width: 295px;
+    height: 150px;
+    font-size: 85px;
+    margin-left: 60px;
+    float: left;
+    border-radius: 20px;
+}
+.year{
+    width: 295px;
+    height: 150px;
+    font-size: 85px;
+    margin-left: 60px;
+    float: left;
+    border-radius: 20px;
+}
+.question_mark{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #596169;
+    color: #fff;
+    font-size: 94px;
+    margin-left: 50px;
+    margin-top: 45px;
+    text-align: center;
+    line-height: 89px;
+}
+.gen{
+    color: grey;
+    padding-left: 498px;
+    margin-top: 109px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.gen-sel{
+    margin-left: 1084px;
+    transform: scale(6.5);
+    margin-top: 47px;
+    float:left;
+}
+.question_mark1{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #596169;
+    color: #fff;
+    font-size: 94px;
+    margin-left: 698px;
+    margin-top: 18px;
+    text-align: center;
+    line-height: 89px;
+}
+.last_para{
+    margin-left: 520px;
+    margin-top: 114px;
+    font-size: 62px;
+    color: #4a4d51;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 550;
+}
+.last_link{
+    color: #585989;
+    text-decoration: none;
+}
+.sign_up{
+    height: 226px;
+    width: 1061px;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    background: green;
+    border-radius: 35px;
+    margin-left: 512px;
+    margin-top: 57px;
+}
+.sign_up:hover{
+    background: rgb(24, 143, 24);
+}
+.signup-btn1::placeholder,
+.signup-btn2::placeholder,
+.mob-pas::placeholder {
+    top: 10px;
+}
+input[type="text"]
+{
+    font-size: 60px;
+}
