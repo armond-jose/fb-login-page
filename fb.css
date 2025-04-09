@@ -223,8 +223,9 @@ body {
     vertical-align: middle;
     text-decoration: none;
 }
-.question_mark{
-    margin-bottom:-60px;
+.question_mark {
+    margin-bottom: -3px;
+    margin-right: -100px;
 }
 
 .question_mark:hover, .question_mark1:hover {
