@@ -1,238 +1,245 @@
-.header{
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.header {
     background: #3b5998;
-    width: 100%;
-    height: 461px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-body{
-    margin:0;
-    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-    zoom:0.25;
-}
-.logo{
-    width: 50%;
-    padding-top: 162px;
-    float: left;
-}
-.login{
-    width:50%;
-    float:left;
-    padding-top: 100px;
-}
-.logo-text{
+
+.logo-text {
     color: #fff;
-    font-size: 185px;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin-left: 238px;
-    padding-left: 283px;
+    margin-bottom: 1rem;
 }
-.login-label{
+
+
+.login-label {
     color: #fff;
-    font-size: 70px;
+    font-size: 0.9rem;
 }
-.login-controls{
-    margin-left: 700px;
-    border-spacing: 91px 0px;
+.login-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
-.forgotten{
-    color: #fff;
-    text-decoration: none;
-    font-size: 51px; 
+.login-btn,
+.sub-btn {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    height: 2.5rem;
 }
-.sub-btn{
+.sub-btn {
     background: #4267b2;
     color: #fff;
-    height: 93px;
-    width: 164px;
-    border: color #29487d;
-    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
 }
-.login-btn{
-    width: 687px;
-    height: 95px;
-    font-size: 45px;
+.sub-btn:hover {
+    background: rgb(115, 210, 241);
 }
-.sub-btn:hover{
-    background:rgb(115, 210, 241);
-}
-.left-section{
-    width: 50%;
-    float: left;
-    padding-left: 105px;
-    padding-top: 101px;
 
+.forgotten {
+    color: #9cb4d8;
+    font-size: 0.8rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
 }
-.right-section{
-    width:40%;
-    float:left;
+
+
+.main-body {
+    background: linear-gradient(white, #D3D8E8);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
-.main-body{
-    background: linear-gradient(white,#D3D8E8);
+.left-section,
+.right-section {
     width: 100%;
-    height:2800px;
+    margin-bottom: 1rem;
 }
-.image{
-    width: 1893px;
-    margin-left: 284px;
-    height: 953px;
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
 }
-.para{
+.para {
+    font-size: 1.2rem;
     font-weight: bold;
-    font-size: 67px;
-    margin-left: 367px;
-}
-.create{
-    padding-left: 470px;
-    font-size: 158px;
-    margin-bottom: -40px;
-}
-.para2{
-    padding-left: 477px;
-    font-size: 80px;
-}
-.signup-controls{
-    margin-left: 482px;
-}
-.signup-btn1{
-    height: 140px;
-    width: 940px;
-    border-radius: 26px;
-    font-size: 45px;
-}
-.signup-btn2{
-    margin-left: -959px;
-    height: 140px;
-    width: 940px;
-    font-size: 45px;
-    border-radius: 26px;
-}
-.mob-pas{
-    margin-top: 60px;
-    height: 131px;
-    width: 1954px;
-    border-radius: 26px;
-    font-size: 45px;
-}
-.signup-btn1::placeholder{
-    font-size: 65px;
-    padding-left: 30px;;
-    position: relative;
-    top:12%;
-}
-.signup-btn2::placeholder{
-    font-size: 65px;
-    padding-left: 30px;;
-    position: relative;
-    top:12%;
-}.mob-pas::placeholder{
-    font-size: 65px;
-    padding-left: 30px;;
-    position: relative;
-    top:12%;
-}
-h2{
-    color: grey;
-    padding-left: 492px;
-    margin-top: 74px;
-    font-size: 63px;
-    font-weight: bold;
-}
-.drop{
-    width: 295px;
-    height: 150px;
-    font-size: 85px;
-    margin-left: 495px;
-    float: left;
-    border-radius: 20px;
-}
-.month{
-    width: 295px;
-    height: 150px;
-    font-size: 85px;
-    margin-left: 60px;
-    float: left;
-    border-radius: 20px;
-}
-.year{
-    width: 295px;
-    height: 150px;
-    font-size: 85px;
-    margin-left: 60px;
-    float: left;
-    border-radius: 20px;
-}
-.question_mark{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #596169;
-    color: #fff;
-    font-size: 94px;
-    margin-left: 50px;
-    margin-top: 45px;
     text-align: center;
-    line-height: 89px;
 }
-.gen{
-    color: grey;
-    padding-left: 498px;
-    margin-top: 109px;
-    font-size: 70px;
-    font-weight: bold;
+
+
+.right-section {
+    max-width: 500px;
 }
-.gen-sel{
-    margin-left: 1084px;
-    transform: scale(6.5);
-    margin-top: 47px;
-    float:left;
+.signup-controls,
+.gen-sel {
+    width: 100%;
 }
-.question_mark1{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #596169;
-    color: #fff;
-    font-size: 94px;
-    margin-left: 698px;
-    margin-top: 18px;
-    text-align: center;
-    line-height: 89px;
+.signup-btn1,
+.signup-btn2,
+.mob-pas {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
 }
-.last_para{
-    margin-left: 520px;
-    margin-top: 114px;
-    font-size: 62px;
-    color: #4a4d51;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight: 550;
+
+
+.date-select {
+    margin: 1rem 0;
 }
-.last_link{
-    color: #585989;
+.drop,
+.month,
+.year {
+    width: 30%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-right: 1%;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+}
+
+.gen {
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1rem;
+}
+.gen-sel {
+    margin: 0.5rem 0;
+}
+.gen-sel label {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.sign_up {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.sign_up:hover {
+    background-color: rgb(24, 143, 24);
+}
+
+.last_para {
+    font-size: 0.7rem;
+    color: #777;
+    line-height: 1.4;
+}
+.last_link {
+    color: #385898;
     text-decoration: none;
 }
-.sign_up{
-    height: 226px;
-    width: 1061px;
-    font-size: 100px;
-    font-weight: 600;
+
+@media (min-width: 600px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+    .logo-text {
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+    .login-controls {
+        justify-content: flex-end;
+    }
+    .login-label {
+        font-size: 1rem;
+    }
+    .login-btn,
+    .sub-btn {
+        font-size: 1rem;
+    }
+    .para {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+@media (min-width: 900px) {
+    .main-body {
+        justify-content: space-between;
+        padding: 2rem 5%;
+    }
+    .left-section {
+        width: 50%;
+        max-width: 600px;
+        padding-right: 2rem;
+    }
+    .right-section {
+        width: 45%;
+        max-width: 500px;
+    }
+    .para {
+        font-size: 2rem;
+    }
+}
+
+.question_mark, .question_mark1 {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #385898;
     color: white;
-    background: green;
-    border-radius: 35px;
-    margin-left: 512px;
-    margin-top: 57px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    vertical-align: middle;
+    text-decoration: none;
 }
-.sign_up:hover{
-    background: rgb(24, 143, 24);
+.question_mark{
+    margin-bottom:-60px;
 }
-.signup-btn1::placeholder,
-.signup-btn2::placeholder,
-.mob-pas::placeholder {
-    top: 10px;
+
+.question_mark:hover, .question_mark1:hover {
+    background: #29487d;
 }
-input[type="text"]
-{
-    font-size: 60px;
+
+
+.date-select-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.gender-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.gen {
+    margin: 0;
 }
